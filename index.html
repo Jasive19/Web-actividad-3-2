@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Hello, world!</title>
   </head>
@@ -25,11 +26,81 @@
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+        <div class="tab-pane fade show active" id="vender" role="tabpanel" aria-labelledby="vender-tab">...</div>
+        <div class="tab-pane fade" id="productos" role="tabpanel" aria-labelledby="productos-tab">...</div>
+        <div class="tab-pane fade" id="ventas" role="tabpanel" aria-labelledby="ventas-tab">...</div>
       </div>
 
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th colspan="3">Nombre</th>
+            <th scope="col">Codigo</th>
+            <th scope="col">Precio  </th>
+            <th scope="col">Existencia</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Eliminar</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="3">BARRITAS FRESA</td>
+            <td>1</td>
+            <td>50.0</td>
+            <td>41.0</td>
+            <td> 
+                <button type="button" class="btn
+                 btn-warning"><i class="fas fa-edit"></i>Editar</button>
+            </td>
+            <td>
+                <button type="button" class="btn 
+                btn-danger"><i class="far fa-trash-alt"></i>Eliminar</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">BARRITAS MORAS</td>
+            <td>2</td>
+            <td>30.0</td>
+            <td>29.0</td>
+            <td> 
+                <button type="button" class="btn
+                 btn-warning"><i class="fas fa-edit"></i>Editar</button>
+            </td>
+            <td>
+                <button type="button" class="btn 
+                btn-danger"><i class="far fa-trash-alt"></i>Eliminar</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">CHECHITOS DONITAS CHILE</td>
+            <td>3</td>
+            <td>20.0</td>
+            <td>99.0</td>
+            <td> 
+                <button type="button" class="btn
+                 btn-warning"><i class="fas fa-edit"></i>Editar</button>
+            </td>
+            <td>
+                <button type="button" class="btn 
+                btn-danger"><i class="far fa-trash-alt"></i>Eliminar</button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3">FANTA NARANJA 3LT</td>
+            <td>4</td>
+            <td>7.0</td>
+            <td>99.0</td>
+            <td> 
+                <button type="button" class="btn
+                 btn-warning"><i class="fas fa-edit"></i>Editar</button>
+            </td>
+            <td>
+                <button type="button" class="btn 
+                btn-danger"><i class="far fa-trash-alt"></i>Eliminar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

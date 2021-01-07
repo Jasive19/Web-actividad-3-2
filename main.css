@@ -1,3 +1,8 @@
 .btn-hover:hover{
     border: 3px solid rgb(127, 221, 139);
 }
+
+.total{
+    font-size: 2.5rem;
+    font-weight: 600;
+}

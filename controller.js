@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.contenedor section').hide();
-    $('.contenedor section.products').show();
+    $('.contenedor section.vender').show();
 
     $('ul.tabs li a').click(function(){
         $('.contenedor section').hide();
@@ -11,3 +11,5 @@ $(document).ready(function () {
     });
     
 });
+
+

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('.contenedor section').hide();
-    $('.contenedor section:first').show();
+    $('.contenedor section.products').show();
 
     $('ul.tabs li a').click(function(){
         $('.contenedor section').hide();
